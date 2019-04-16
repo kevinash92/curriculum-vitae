@@ -170,6 +170,7 @@
 \newcommand{\locationSymbol}{\faMapMarker}
 \newcommand{\infoSymbol}{\faInfo}
 \newcommand{\linkedinSymbol}{\faLinkedin}
+\newcommand{\birthdaySymbol}{\faBirthdayCake}
 \newcommand{\viadeoSymbol}{\faViadeo}
 \newcommand{\mobileSymbol}{\faMobilePhone}
 \newcommand{\githubSymbol}{\faGithub}
@@ -222,6 +223,10 @@
 % Render author's infos
 % Usage: \infos{<infos>}
 \newcommand*{\infos}[1]{\socialtext{\infoSymbol}{#1}}
+
+% Render author's birthday
+% Usage: \birthday{<birthday>}
+\newcommand*{\birthday}[1]{\socialtext{\birthdaySymbol}{#1}}
 
 % Render author's linked-in (optional)
 % Usage: \linkedin{<linked-in-nick>}
